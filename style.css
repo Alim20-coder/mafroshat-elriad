@@ -266,6 +266,23 @@ a {
 .top-bar a:hover {
   color: var(--secondary-light);
 }
+.social-top-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff !important;
+  font-size: 0.82rem;
+  transition: var(--transition-fast);
+}
+.social-top-btn:hover {
+  background: var(--secondary-color);
+  color: #fff !important;
+  transform: translateY(-2px);
+}
 
 /* Main Navbar */
 .navbar-custom {
